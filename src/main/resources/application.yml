@@ -1,0 +1,14 @@
+#default settings
+server.port: 8090
+
+fileUpload:
+  data:
+    dir: '/upload/'
+
+rest:
+  controller:
+    fileUpload: '/upload'
+
+
+security:
+  ignored: '/**'
